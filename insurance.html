@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vivo Education</title>
+
+    <!--External CSS link-->
+    <link rel="stylesheet" href="./assest/service.css" />
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!--CDN link for owl carousel-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--Box Icon CDN-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--Link for animate.css CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!--Bootstrap v5 Link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <!---Navigation bar -->
+      <nav class="navbar bg-body-tertiary navbar-expand-lg border-bottom">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="./assest//img/logo.png"
+              class="img-fluid ms-lg-4"
+              height="150px"
+              width="150px"
+              alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                <img
+                  src="./assest//img/logo.png"
+                  class="img-fluid ms-lg-3"
+                  height="150px"
+                  width="150px"
+                  alt=""
+                />
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active ms-1"
+                    aria-current="page"
+                    id="active-page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item dropdown ms-lg-3">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="about.html"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    About Us
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="about.html">Why Us?</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="about.html"
+                        >Message from Director</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown ms-lg-4">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Study Abroad
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="australia.html"
+                        >Australia</a
+                      >
+                    </li>
+                    <li><a class="dropdown-item" href="#">Canada</a></li>
+                    <li><a class="dropdown-item" href="#">Europe</a></li>
+                    <li><a class="dropdown-item" href="#">India</a></li>
+                    <li><a class="dropdown-item" href="#">Japan</a></li>
+                    <li><a class="dropdown-item" href="#">New Zealand</a></li>
+                    <li><a class="dropdown-item" href="#">UK</a></li>
+                    <li><a class="dropdown-item" href="#">US</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown ms-lg-4">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="admissionguid.html">Admission Guidance</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="careercounsel.html">Career Counselling</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Visa Assistance</a>
+                    </li>
+                    <li><a class="dropdown-item" href="insurance.html">Insurance</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown ms-lg-3">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Migration
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="migration.html"
+                        >Partner Visa</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="migration.html"
+                        >Skilled Migration</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Employment Migration</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Visitor Visa</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Permanent Visa</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Visa Extension</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Temporary Graduate Visa</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown ms-lg-4">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Language Preparation
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="Ielts.html">IELTS</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">GMAT</a></li>
+                    <li><a class="dropdown-item" href="#">GRE</a></li>
+                    <li><a class="dropdown-item" href="#">SAT</a></li>
+                    <li><a class="dropdown-item" href="#">TOEFL</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">ENGLISH LANGUAGE</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item ms-lg-4">
+                  <a href="newgallery.html" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item ms-lg-4">
+                  <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--Banner Section-->
+      <div class="hero-about">
+        <div class="australia-info">
+          <h2 class="secondary-header">Services</h2>
+        </div>
+      </div>
+    </header>
+
+    <!--CountryInfo Sections-->
+
+    <section class="countryInfo">
+      <div class="container">
+        <div class="row gx-5 gy-3">
+          <div class="col-sm-12 col-lg-7 col-12" id="mtDiv">
+            <h2 class="text-center text-lg-start text-capitalize mt-4">
+              Insurance
+            </h2>
+            <div class="countryIntro">
+              <p>
+                Australia is world famous for its natural wonders and wide open
+                spaces, its beaches, deserts, “the bush”, and “the Outback”.
+                Australia is one of the world’s most highly urbanized countries;
+                it is well known for the attractions of its large cities such as
+                Sydney, Melbourne, Brisbane, and Perth. Australia is the only
+                continent covered by a single country with truly unique
+                landscapes, natural wonders and extraordinary experiences for
+                travellers. Australian education system is best and suits the
+                tuition fees and living expenses in Australia is quite flexible
+                for international students as compared to other country
+              </p>
+              <a href="" id="btnConsult" class="btn">Request a consultation</a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-5 col-12">
+            <div class="colIn mt-4">
+              <img
+                src="https://vivo.edu.np/assets/img/about/aboad.jpg"
+                class="img-fluid"
+                style="height: 320px"
+                alt=""
+                id="doFil"
+              />
+            </div>
+          </div>
+
+          <!-- <div class="col-sm-12 col-lg-4 col-12">
+            <h2 class="text-start text-capitalize">Admission Guidance</h2>
+            <div class="countryIntro">
+              <p>
+                Applying to Australian Institutions is easy, Although it will
+                take some time and careful planning. Step by step guide to
+                applying to universities in Australia:
+              </p>
+              <div id="admission">
+                <ul class="admission">
+                  <li>
+                    <a href=""
+                      ><h6>
+                        <i class="bx bx-checkbox-checked fs-2 text-center"></i
+                        >Ensure you meet all the requirements
+                      </h6></a
+                    >
+                  </li>
+                  <li>
+                    <a href=""
+                      ><h6>
+                        <i class="bx bx-checkbox-checked fs-2 text-center"></i
+                        >Find a course and select your Universities\Colleges
+                      </h6></a
+                    >
+                  </li>
+                  <li>
+                    <a href=""
+                      ><h6>
+                        <i class="bx bx-checkbox-checked fs-2 text-center"></i
+                        >Work out how you want to apply
+                      </h6></a
+                    >
+                  </li>
+                  <li>
+                    <a href=""
+                      ><h6>
+                        <i class="bx bx-checkbox-checked fs-2 text-center"></i>
+                        Take your English Language Exam & Send off Applications
+                      </h6></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="colIn mt-4">
+              <img
+                src="https://www.aussieintl.com/wp-content/uploads/2019/06/unnamed-3.jpg"
+                class="img-fluid"
+                alt=""
+                id="doFil"
+              />
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4 col-12">
+            <div class="colIn">
+              <img
+                src="https://vivo.edu.np/assets/img/about/aboad.jpg"
+                class="img-fluid"
+                alt=""
+                id="doFil"
+              />
+            </div>
+            <h2 class="text-start text-capitalize mt-4">Insurance</h2>
+            <div class="countryIntro">
+              <p>
+                Australia is world famous for its natural wonders and wide open
+                spaces, its beaches, deserts, “the bush”, and “the Outback”.
+                Australia is one of the world’s most highly urbanized countries;
+                it is well known for the attractions of its large cities such as
+                Sydney, Melbourne, Brisbane, and Perth. Australia is the only
+                continent covered by a single country with truly unique
+                landscapes, natural wonders and extraordinary experiences for
+                travellers. Australian education system is best and suits the
+                tuition fees and living expenses in Australia is quite flexible
+                for international students as compared to other country
+              </p>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!--What we offer-->
+    <div class="container-fluid whatweOffer">
+      <h2 class="text-center">What We Offer?</h2>
+      <div class="row mx-3 gy-3 mt-3">
+        <div class="col-sm-4 col-lg-2 d-flex justify-content-center">
+          <div class="card">
+            <div class="imgbx">
+              <img src="./assest/img/passport.png" alt="" />
+            </div>
+            <div class="card-body d-flex flex-column align-items-center">
+              <h6>Visa Assistance</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-lg-2 d-flex justify-content-center">
+          <div class="card">
+            <div class="imgbx">
+              <img src="./assest/img/studies (1).png" alt="" />
+            </div>
+            <div class="card-body d-flex flex-column align-items-center">
+              <h6>Study Abroad</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-lg-2 d-flex justify-content-center">
+          <div class="card">
+            <div class="imgbx">
+              <img src="./assest/img/test.png" alt="" />
+            </div>
+            <div class="card-body d-flex flex-column align-items-center">
+              <h6 class="card-title">Test Preparation</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-lg-2 d-flex justify-content-center">
+          <div class="card">
+            <div class="imgbx">
+              <img src="./assest/img/admission.png" alt="" />
+            </div>
+            <div class="card-body d-flex flex-column align-items-center">
+              <h6>Admission Guide</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-lg-2 d-flex justify-content-center">
+          <div class="card">
+            <div class="imgbx">
+              <img src="./assest/img/discuss.png" alt="" />
+            </div>
+            <div class="card-body d-flex flex-column align-items-center">
+              <h6>Career Counseling</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-lg-2 d-flex justify-content-center">
+          <div class="card">
+            <div class="imgbx">
+              <img src="./assest/img/shield.png" alt="" />
+            </div>
+            <div class="card-body d-flex flex-column align-items-center">
+              <h6>Insurance</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--footer section starts here-->
+    <section class="footer">
+      <div class="wrap">
+        <div class="row gx-5 gy-2">
+          <div class="col-lg-3 col-sm-12 col-12" id="footerImgCol">
+            <img src="./assest/img/logo.png" class="img-fluid mt-5" alt="" />
+            <p class="mt-2">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              libero eaque labore ex eligendi at! Laudantium ipsa veritatis
+              facilis cum.
+            </p>
+          </div>
+          <div class="col-lg-3 col-sm-12 col-12">
+            <div class="mb-lg-5">
+              <h5 class="mt-lg-5 mt-2 footer-h">Migration</h5>
+
+              <li class="list-unstyled">
+                <a href="">Partner Visa</a>
+              </li>
+              <li>
+                <a href="">Visitor Visa</a>
+              </li>
+              <li>
+                <a href="">Permanent Visa</a>
+              </li>
+              <li>
+                <a href="">Visa Extension</a>
+              </li>
+
+              <h5 class="mt-lg-3 mt-2 footer-h">Quick Links</h5>
+
+              <li>
+                <a href="about.html">About Us</a>
+              </li>
+              <li>
+                <a href="contact.html">Contact</a>
+              </li>
+              <li>
+                <a href="australia.html">Study Abroad</a>
+              </li>
+              <li>
+                <a href="careercounsel.html">Services</a>
+              </li>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-12 col-12">
+            <h5 class="footer-h mt-2 mt-lg-5">Contact Us</h5>
+
+            <li>
+              <i class="bx bx-location-plus"></i>
+              <a href="">Putalisadak, kathmandu</a>
+            </li>
+            <li>
+              <i class="bx bx-phone-call"></i>
+              <a href="">Putalisadak, kathmandu</a>
+            </li>
+            <li>
+              <i class="bx bx-mail-send"></i>
+              <a href="">Putalisadak, kathmandu</a>
+            </li>
+            <li>
+              <i class="bx bxl-gmail"></i>
+              <a href="">Putalisadak, kathmandu</a>
+            </li>
+
+            <h5 class="footer-h mt-lg-3 mt-2">Language Classes</h5>
+
+            <li>
+              <a href="">IELTS</a>
+            </li>
+            <li>
+              <a href="">TOEFL</a>
+            </li>
+            <li>
+              <a href="">SAT</a>
+            </li>
+            <li></li>
+          </div>
+
+          <div class="col-lg-3 col-sm-12 col-12 mb-2">
+            <h5 class="footer-h mt-2 mt-lg-5">Get in Touch</h5>
+            <i class="bx bxl-facebook-circle fs-2"></i>
+            <i class="bx bxl-instagram-alt fs-2"></i>
+            <i class="bx bxl-twitter fs-2"></i>
+            <i class="bx bxl-youtube fs-2"></i> <br />
+            <a href="" class="btn mt-2" id="cta">Call Us Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="rights">
+      <div class="right">
+        <p class="pt-3">
+          Copyright &copy 2023. All rights reserved| Designed and Developed by
+          <a href="">Prabidhi Enterprises</a>
+        </p>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

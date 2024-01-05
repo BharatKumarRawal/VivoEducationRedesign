@@ -1,0 +1,256 @@
+:root {
+  --primary-color: rgb(12, 77, 162);
+  --secondary-color: rgb(236, 0, 140);
+  --text-color: #555;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Neuton", serif;
+  font-family: "Roboto", sans-serif;
+  /* overflow-x: hidden; */
+}
+
+/* CSS for Nav item */
+#active-page {
+  color: var(--secondary-color);
+
+  transform: scale(1.01);
+  overflow-x: hidden;
+}
+
+.nav-item .nav-link {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+.nav-item .nav-link:hover {
+  transform: scale(1.01);
+  color: var(--secondary-color);
+}
+.nav-item .dropdown-menu {
+  border-top: 2px solid var(--primary-color);
+}
+.dropdown-menu .dropdown-item {
+  font-size: 14px;
+}
+
+.hero-about {
+  background: url("./img/13777983_gradient_2.jpg");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.secondary-header {
+  color: #fff;
+  line-height: 1.2px;
+  letter-spacing: 0.2px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.australia-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.australia-info p {
+  color: #fff;
+}
+.about-us {
+  margin-top: 60px;
+}
+
+/* countryInfo Css */
+.countryInfo {
+  margin-top: 60px;
+}
+.countryInfo h2 {
+  padding-top: 20px;
+  line-height: 1.2px;
+  letter-spacing: 0.2px;
+  padding-bottom: 30px;
+  font-weight: bold;
+  font-size: 32px;
+}
+.countryIntro p {
+  line-height: 2;
+  font-size: 14px;
+  color: #444;
+}
+
+#doFil {
+  filter: brightness(80%);
+}
+/* .countryIntro {
+  display: flex;
+  text-align: justify;
+  align-items: end;
+} */
+/* counseling sec css */
+.counseling {
+  margin-top: 80px;
+  height: 200px;
+  width: 100%;
+  background: linear-gradient(210deg, rgb(236, 0, 142, 0.7), rgb(12, 77, 162));
+}
+
+#btnConsult {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: var(--primary-color);
+  padding: 15px 30px;
+  border: 1px solid var(--secondary-color);
+  transition: all 600ms ease-in;
+}
+
+#btnConsult:hover {
+  color: var(--primary-color);
+  background: #fff;
+
+  border: 1px solid var(--secondary-color);
+}
+
+/* Faq and other countries Css */
+.faq {
+  margin-top: 60px;
+}
+.faq .coli > h2 {
+  padding: 10px 0;
+}
+
+.faq .accordion {
+  margin-top: 10px;
+
+  border-radius: 5px;
+  filter: grayscale();
+}
+.faq .accordion .accordion-header button {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.faq .accordion .accordion-body p {
+  color: #444;
+  font-size: 14px;
+  text-align: left;
+  line-height: 1.8;
+}
+/* .destinations {
+  display: flex;
+  justify-content: flex-start;
+} */
+.destinations h4 {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: var(--primary-color);
+  line-height: 1.6;
+  background-color: #f7f7f7;
+}
+.destinations h4:hover {
+  background-color: pink;
+}
+.destinations h4:hover {
+  color: #fff;
+}
+.destinations ul {
+  margin-left: -30px;
+}
+.destinations ul li a:hover {
+  text-decoration: none;
+}
+
+/* footer Css*/
+.wrap > .row {
+  margin-left: 20px;
+}
+.footer {
+  margin-top: 30px;
+}
+
+.footer-lst,
+li {
+  list-style: none;
+}
+.footer-lst,
+li > a {
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--text-color);
+}
+.footer-lst,
+li > a:hover {
+  text-decoration: underline;
+}
+
+#footerImgCol > img {
+  height: 120px;
+  width: 220px;
+}
+#footerImgCol p {
+  font-size: 14px;
+  color: var(--text-color);
+}
+.footer-h {
+  color: var(--primary-color);
+}
+
+.h6-color > h6 {
+  color: var(--primary-color);
+}
+.service > .row {
+  height: 170px;
+}
+#cta {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: var(--primary-color);
+  padding: 10px 20px;
+  border: 1px solid var(--secondary-color);
+  transition: all 600ms linear;
+}
+#cta:hover {
+  color: var(--primary-color);
+  background: #fff;
+
+  border: 1px solid var(--secondary-color);
+}
+.rights {
+  background: rgba(12, 77, 162);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right > p {
+  color: #fff;
+}
+.right p > a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.right p > a:hover {
+  color: #fff;
+}
+
+.bx {
+  color: var(--secondary-color);
+}
+.footer {
+  overflow-x: hidden;
+}
